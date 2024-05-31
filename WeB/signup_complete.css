@@ -1,0 +1,22 @@
+*{ padding: 0; margin: 0; }
+img.WReLi{ position: relative; left: 700.5px; width: 135px; height: 70px;}
+img.login{
+    position: relative; left: 364px;
+    height: 40px;
+}
+nav{ display: flex; margin-top: 5px; margin-bottom: 5px; font-size: 13px;}
+h1{ position: relative; top: 23%; font-size: 27px; text-align: center; font-weight: 500; color: #46B1E1; }
+h3{ position: relative; top: 28%; font-size: 15px; text-align: center; font-weight: 500; color: #46B1E1; }
+
+input[type=button]{
+    position: relative; left: 42%; top:50%; background-color: white; text-align: center; color: #3992bb;
+    margin: 5px; border: solid 1.5px #46B1E1; border-radius: 8px;
+    width: 67px; height: 36px; 
+}
+input[type=button]:hover{
+    background-color: silver;
+}
+main{
+    border: solid 1px #46B1E1; border-radius: 25px; margin: 2% 35% 1% 35%;
+    height: 364px;
+}
