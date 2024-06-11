@@ -124,6 +124,4 @@ input[id="checkE"]:checked + label::after{ content: '✔️'; }
 select { position: absolute; left: 83%; border: solid 1px #46B1E1; outline: none;
     color: #46B1E1; height: 30px; width: 77px;
 }
-
-
 footer { border: solid 1px red; height: 80px; }
