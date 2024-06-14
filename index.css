@@ -93,7 +93,7 @@ li { position: none; border-bottom: solid 2px #46B1E1; height: 30px; margin-top:
     position: relative;
     display: inline-block;
 }
-.hide { display: none; position: absolute; top: 100%; left: 0;
+.hide { display: none; position: absolute; top: -11.5px; left: 119px;
     border: solid 1px #46b1e1; background-color: white;
 }
 .container:hover .hide {
