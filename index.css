@@ -1,4 +1,4 @@
-*{ padding: 0; margin: 0; font-size: 13px; }
+*{ padding: 0; margin: 0; font-size: 13px; list-style: none;}
 header{
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,8 @@ a.user{
 a#smallmenu{ display: flex; margin-top: 10px; margin-left: 15px; margin-right: 15px;
     width: 50px; height: 50px; }
 body{ font-size: 13; color: #46b1e1; }
-img.menu{ margin: 5px 0 0 5px;
-    width: 50px; height: 50px; 
+img#menu{ margin: 5px 0 0 5px;
+    width: 50px; height: 50px; cursor: pointer;
 }
 img.WReLi{ width: 130px; padding-right: 5px; }
 img.smallmenu{ width: 50px; height: 50px;}
@@ -83,3 +83,19 @@ input[type=button]:hover{
 .carousel_item.prev, .carousel_item.next { transform: translateX(-120%) scale(0.7); z-index: 1;}
 .carousel-item.active { transform: translateX(0) scale(1); z-index: 2; }
 footer { border: solid 1px red; height: 80px; }
+.hidden-content { display: none; position: absolute; top: 55px; left: 5px;
+    border: solid 2px #46B1E1; width: 150px; height: 250px; border-bottom: none;
+    background-color: white;
+}
+.trigger:hover { cursor: pointer; }
+li { border-bottom: solid 2px #46B1E1; height: 30px; margin-top: 10px; text-align: center; }
+div.container {
+    position: relative;
+    display: inline-block;
+}
+div.hide { display: none; position: absolute; top: 100%; left: 0;
+    border: solid 1px #46b1e1; background-color: white;
+}
+div.container:hover, div.hide {
+    display: block;
+}
