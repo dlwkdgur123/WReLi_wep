@@ -88,14 +88,14 @@ footer { border: solid 1px red; height: 80px; }
     background-color: white;
 }
 .trigger:hover { cursor: pointer; }
-li { border-bottom: solid 2px #46B1E1; height: 30px; margin-top: 10px; text-align: center; }
-div.container {
+li { position: none; border-bottom: solid 2px #46B1E1; height: 30px; margin-top: 10px; text-align: center; }
+.container {
     position: relative;
     display: inline-block;
 }
-div.hide { display: none; position: absolute; top: 100%; left: 0;
+.hide { display: none; position: absolute; top: 100%; left: 0;
     border: solid 1px #46b1e1; background-color: white;
 }
-div.container:hover, div.hide {
+.container:hover .hide {
     display: block;
 }
