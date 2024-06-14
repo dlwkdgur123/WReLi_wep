@@ -56,10 +56,10 @@ aside { display: flex; justify-content: center; margin: 2% 12% 0% 12%;
     height: 500px;
 }
 div#a{ display: flex; justify-content: space-between;}
-div#newbook { margin: 4% 22px 4% 22px; }
+div#newbook { margin: 4% 5px 4% 5px; }
 h3{ font-size: 22px; width: 25%;}
-main{ border: solid 1px red; margin: 4% 15% 4% 15%; height: 450px;}
-section{ border: solid 1px #46B1E1; border-radius: 25px; display: flex; justify-content: space-between;}
+main{ border: solid 1px red; margin: 4% 12% 4% 12%; height: 450px;}
+section{ border: solid 1px #46B1E1; border-radius: 25px; display: flex; padding-left: 20px; padding-right: 20px; justify-content: space-between; overflow: hidden;}
 article{ border: solid 1px red; height: 200px; width: 150px; }
 img.art{ border: solid 1px blue; height: 200px; width: 150px; }
 p.ml { font-size: 18px;}
