@@ -84,18 +84,25 @@ input[type=button]:hover{
 .carousel-item.active { transform: translateX(0) scale(1); z-index: 2; }
 footer { border: solid 1px red; height: 80px; }
 .hidden-content { display: none; position: absolute; top: 55px; left: 5px;
-    border: solid 2px #46B1E1; width: 150px; height: 250px; border-bottom: none;
+    border: solid 1px #46B1E1; width: 300px; height: 31px;
     background-color: white;
 }
 .trigger:hover { cursor: pointer; }
-li { position: none; border-bottom: solid 2px #46B1E1; height: 30px; margin-top: 10px; text-align: center; }
+ul { display: flex; }
+div.li { border: solid 1px #46B1E1; height: 30px; text-align: center; }
 .container {
     position: relative;
-    display: inline-block;
+    display: inline-block; width: 100%;
 }
-.hide { display: none; position: absolute; top: -11.5px; left: 119px;
-    border: solid 1px #46b1e1; background-color: white;
-}
-.container:hover .hide {
+.container:hover .hide_1 {
     display: block;
+}
+.container:hover .hide_2 {
+    display: block;
+}
+.hide_1 { display: none; position: absolute; top: 30.5px; left: -1px;
+    border: solid 2px #46b1e1; background-color: white; width: 500px; height: 300px;
+}
+.hide_2 { display: none; position: absolute; top: 30.5px; left: -151px;
+    border: solid 2px #46b1e1; background-color: white; width: 500px; height: 300px;
 }
